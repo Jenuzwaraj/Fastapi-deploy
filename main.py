@@ -11,7 +11,7 @@ import certifi
 app = FastAPI(title="Sensor Data API")
 
 # MongoDB connection
-base_url = os.getenv("MONGODB_URL", "mongodb+srv://priyankapk793_db_user:adrTD6FaFT7y6vVb@cluster0.pmydy7n.mongodb.net")
+base_url = os.getenv("")
 MONGO_DB_NAME = os.getenv("MONGO_DB_NAME", "sensor_data")
 
 # Add connection parameters to the URL
